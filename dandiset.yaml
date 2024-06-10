@@ -54,7 +54,8 @@ description: This study aimed to visualize and characterize membrane lesions cau
   identified three types of lesions in HEK cells, each with distinct characteristics.
   Hyperpolarization to specific voltages created diffuse zonal electropermeabilization,
   focal pores, and high-conductance pores, with adaptive conductance changes preventing
-  membrane rupture.
+  membrane rupture. This study was partially supported by NIH grants 1R21EY034258
+  and 5R21EY034803.
 ethicsApproval: []
 id: DANDI:001048/draft
 identifier: DANDI:001048
