@@ -49,7 +49,12 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-06-05T00:38:54.126397+00:00'
-description: description
+description: This study aimed to visualize and characterize membrane lesions caused
+  by hyperpolarization and their protective roles against membrane overcharging. We
+  identified three types of lesions in HEK cells, each with distinct characteristics.
+  Hyperpolarization to specific voltages created diffuse zonal electropermeabilization,
+  focal pores, and high-conductance pores, with adaptive conductance changes preventing
+  membrane rupture.
 ethicsApproval: []
 id: DANDI:001048/draft
 identifier: DANDI:001048
