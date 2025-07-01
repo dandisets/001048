@@ -8,12 +8,24 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 4789275917
+  numberOfFiles: 7
+  numberOfSubjects: 7
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Silkuniene, Giedre; Silkunas, Mantas; Olga, Pakhomova; Andrei, Pakhomov
-  (2024) Plasma membrane conductance changes in response to supraphysiological hyperpolarization
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001048/draft
+  (2025) Plasma membrane conductance changes in response to supraphysiological hyperpolarization
+  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001048/draft
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -50,6 +62,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-06-05T00:38:54.126397+00:00'
+datePublished: '2025-07-01T16:24:48.463154+00:00'
 description: This study aimed to visualize and characterize membrane lesions caused
   by hyperpolarization and their protective roles against membrane overcharging. We
   identified three types of lesions in HEK cells, each with distinct characteristics.
@@ -60,18 +73,34 @@ description: This study aimed to visualize and characterize membrane lesions cau
 ethicsApproval: []
 id: DANDI:001048/draft
 identifier: DANDI:001048
-keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001048/versions/draft/assets/
 name: Plasma membrane conductance changes in response to supraphysiological hyperpolarization
-protocol: []
-relatedResource: []
+publishedBy:
+  endDate: '2025-07-01T16:24:48.463154+00:00'
+  id: urn:uuid:bb59752a-a237-414d-9d35-17ef5a6008ea
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-07-01T16:24:48.463154+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:07e187c3-465a-405b-9859-288e58ca4248
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
+relatedResource:
+- identifier: doi.org/10.1016/j.xcrp.2025.102660
+  name: Excitation and polarization of isolated neurons by high-frequency sine waves
+    for temporal interference stimulation
+  relation: dcite:IsPublishedIn
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.xcrp.2025.102660
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
-studyTarget: []
 url: https://dandiarchive.org/dandiset/001048/draft
 version: draft
 wasGeneratedBy:
