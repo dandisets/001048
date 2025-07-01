@@ -25,7 +25,7 @@ assetsSummary:
   variableMeasured: []
 citation: Silkuniene, Giedre; Silkunas, Mantas; Olga, Pakhomova; Andrei, Pakhomov
   (2025) Plasma membrane conductance changes in response to supraphysiological hyperpolarization
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001048/draft
+  (Version 0.250701.1624) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001048/0.250701.1624
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -70,13 +70,14 @@ description: This study aimed to visualize and characterize membrane lesions cau
   focal pores, and high-conductance pores, with adaptive conductance changes preventing
   membrane rupture. This study was partially supported by NIH grants 1R21EY034258
   and 5R21EY034803.
+doi: 10.48324/dandi.001048/0.250701.1624
 ethicsApproval: []
-id: DANDI:001048/draft
+id: DANDI:001048/0.250701.1624
 identifier: DANDI:001048
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001048/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001048/0.250701.1624/assets.yaml
 name: Plasma membrane conductance changes in response to supraphysiological hyperpolarization
 publishedBy:
   endDate: '2025-07-01T16:24:48.463154+00:00'
@@ -101,8 +102,8 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
-url: https://dandiarchive.org/dandiset/001048/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001048/0.250701.1624
+version: 0.250701.1624
 wasGeneratedBy:
 - identifier: 5R21EY034803
   name: Next Generation Temporal Interference Stimulation for Non-Invasive Neuromodulation
